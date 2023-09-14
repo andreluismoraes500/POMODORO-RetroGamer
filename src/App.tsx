@@ -1,9 +1,9 @@
-import Pomodoro from "./components/pomodoro";
+import Teste from "./components/teste";
 
 function App() {
   return (
     <div className="min-h-screen flex items-center justify-center font-press">
-      <div className="flex flex-col ">
+      {/* <div className="flex flex-col ">
         <div className="text-center mb-20">
           <div className="text-cyan-300 text-4xl font-bold mb-10">Trabalho</div>
           <Pomodoro value={1500} />
@@ -13,8 +13,8 @@ function App() {
             Intervalo
           </div>
           <Pomodoro value={300} />
-        </div>
-      </div>
+        </div> */}
+      <Teste />
     </div>
   );
 }
